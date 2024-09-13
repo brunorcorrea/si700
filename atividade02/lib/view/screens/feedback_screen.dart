@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
 class FeedbackScreen extends StatelessWidget {
-  Future<String>? futureResult;
+  Future<String?> futureResult;
 
-  FeedbackScreen({this.futureResult});
+  FeedbackScreen({required this.futureResult});
 
   Widget successMessage() {
     return Center(
